@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- cSS -->
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/cadastro.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <form id="form">
+                <select name="cargo" id="cargo">
+                    <option value="">Seleciona um cargo</option>
+                    <option value="gerente">Gerente</option>
+                    <option value="recepcionista">Recepcionista</option>
+                    <option value="garcom">Garçom</option>
+                    <option value="admFinanceiro">Administrativo Financeiro</option>
+                </select>
+
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+                <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirmar Senha">
+                <br>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div class="box2">
+            <h1>Bem Vindo de Volta!!</h1>
+            <p>Ja tem login?</p>
+            <p>Então entre com suas credenciais</p>
+            <br>
+            <a href="../index.html"><button>Login</button></a>
+        </div>
+    </div>
+</body>
+<script src="script/cadastrar.js"></script>
+</html>
